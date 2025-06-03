@@ -1,0 +1,34 @@
+{
+    "name": "todoist-notion-sync",
+    "version": "1.0.0",
+    "description": "Two-way sync between Todoist and Notion",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "todoist",
+        "notion",
+        "sync",
+        "tasks",
+        "productivity"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@notionhq/client": "^2.2.14",
+        "axios": "^1.6.7",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.18.3",
+        "node-cron": "^3.0.3"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
